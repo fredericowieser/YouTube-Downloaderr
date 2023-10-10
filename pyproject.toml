@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "youtube-video-downloader"
+version = "0.1.0"
+description = ""
+authors = ["Frederico Wieser <frederico.wieser@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "3.9.17"
+numpy = "^1.25.0"
+pandas = "^2.0.3"
+streamlit = "^1.24.0"
+streamlit-option-menu = "^0.3.6"
+ipdb = "^0.13.13"
+notebook = "^7.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
