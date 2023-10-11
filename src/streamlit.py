@@ -4,7 +4,8 @@ import pandas as pd
 
 from streamlit_option_menu import option_menu
 
-from src.download import download
+from src.download import download, V_TYPES
+
 
 def make_gui():
     st.set_page_config(layout="wide")
@@ -46,8 +47,7 @@ def home_page():
     
     vtype = st.selectbox(
         "What kind of URL is this?",
-        ('Normal Vid', 'Song', 'Album', 'Lecture Series', 'Single Lecture',
-         'Podcast', 'DJ Set', 'Mix')
+        V_TYPES
     )
     
     dwnld = st.button("Start Download", type="primary")
