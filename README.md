@@ -2,6 +2,8 @@
 
 **STATUS =** In Progress
 
+To use this you must add `yt-dlp` into your system.
+
 Give a link along with what kind of video it is...
 
 - song
